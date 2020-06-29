@@ -1,8 +1,8 @@
 <img src="https://github.com/Probabilidade-e-Estatistica-EAD/livro/blob/master/imagem_site_disciplina.png?raw=true" width="1000">
 
-# Slides:
+# Exercicios:
 
-Este material é baseado nos exercícios do EXCELENTE Livro Statistics dos autores David Freedman, Robert Pisani e Roger Purves. Os exercícios são organizados como questoes de múltipla escolha, ideal para disponibilizar no moodle em disciplinas de probabilidade e estatística.
+Este material é baseado nos exercícios do EXCELENTE Livro Statistics dos autores David Freedman, Robert Pisani e Roger Purves. Os exercícios são organizados como questoes de múltipla escolha, as quais podem ser disponibilizadas no moodle em disciplinas de probabilidade e estatística.
 
 <div align="right"><strong>Tradução e Adaptação: <br></strong> Maico Mann <br> Márcia Helena Barbian	</div>
 
