@@ -3,7 +3,7 @@ library(exams)
 library(knitr)
 library(kableExtra)
 library(stringr)
-
+options(digits=4)
 ```
 
 ```{r data_generation, echo = FALSE, results = "hide"}
@@ -18,7 +18,7 @@ I = matrix(c(1000,2000,2000,3000,3000,4000,rep(0,6)),6,2,byrow = T) #Vai ser os 
 #Isso faz com que a matriz I não tenha duas linhas iguais
 for(i in 4:6){
   h=1
-  while(h==1){
+  while(h==1){ #Se duas linhas foram iguais, repete o processo
     h=0
     I[i,] = sort(sample(intervalo_rendas,2))
     for(j in 1:(i-1)){
@@ -28,6 +28,7 @@ for(i in 4:6){
     }
   }
 }
+
 
 
 A=I/1000 #Apenas pra dar certo com as respectivas coordenadas de p (veja sua definição e comentário)
@@ -109,7 +110,7 @@ questions[5] = str_replace(questions[5], "c", resposta_errada4[3])
 questions[5] = str_replace(questions[5], "d", resposta_errada4[4])
 questions[5] = str_replace(questions[5], "e", resposta_errada4[5])
 
-
+#Fazer com o paste
 
 
 #E o vetor indicando quais são as corretas. No caso, a primeira
